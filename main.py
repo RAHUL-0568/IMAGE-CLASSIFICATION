@@ -10,7 +10,7 @@ from tensorflow.keras import datasets, layers, models
 training_images = training_images / 255.0
 testing_images = testing_images / 255.0
 
-# Define class names
+
 class_names = ['plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
 
 
